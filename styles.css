@@ -1,0 +1,35 @@
+body{
+    margin:0;
+}
+
+#topHalf, #bottomHalf{
+    width: 100vw;
+    height: 500px;
+}
+#topHalf{
+    /* background-image: url(images/blueLand.png) */
+    /* width: 100vw; */
+    margin: 0;
+    
+}
+
+img{
+    width:100vw;
+    /* height: 100vh; */
+    object-fit: fill;
+}
+
+#bottomHalf{
+    background-color: lightsteelblue;
+}
+
+#topHalf{
+    background-color: red;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+  }
