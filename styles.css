@@ -4,12 +4,12 @@ body{
 
 #topHalf, #bottomHalf{
     width: 100vw;
-    height: 600px;
+    height: 800px;
     position: abosolute;
 }
 
 #topHalf{
-    background-color: blue;
+    background-color: red;
     /* border: 5px solid black; */
 }
 
